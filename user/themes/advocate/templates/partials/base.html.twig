@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.header.description %}{{ page.header.description }}{% else %}{{ site.metadata.description }}{% endif %}">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="{{ url('theme://css/style.css') }}">
+
+    {% block head %}{% endblock %}
+</head>
+<body class="{{ page.header.body_classes }}">
+
+    {% include 'partials/header.html.twig' %}
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    {% include 'partials/footer.html.twig' %}
+
+    <div class="menu-overlay"></div>
+
+    <!-- Theme JS -->
+    <script src="{{ url('theme://js/main.js') }}"></script>
+    {% block bottom %}{% endblock %}
+</body>
+</html>

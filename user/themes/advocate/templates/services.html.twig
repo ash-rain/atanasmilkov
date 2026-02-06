@@ -1,0 +1,58 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <section class="page-header">
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+            <div class="breadcrumbs">
+                <a href="{{ base_url_absolute }}">Начало</a>
+                <span class="sep">/</span>
+                <span>{{ page.title }}</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--light">
+        <div class="container">
+            {% if page.content %}
+            <div class="section__header">
+                <p class="section__subtitle" style="color: var(--color-text-light);">{{ page.content|striptags }}</p>
+            </div>
+            {% endif %}
+
+            <div class="services-grid">
+                {% for service in page.children %}
+                <div class="service-card reveal">
+                    <div class="service-card__icon">
+                        {% if service.header.icon %}
+                            {{ service.header.icon|raw }}
+                        {% else %}
+                        <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+                        {% endif %}
+                    </div>
+                    <h3 class="service-card__title">
+                        <a href="{{ service.url }}">{{ service.title }}</a>
+                    </h3>
+                    <p class="service-card__excerpt">{{ service.header.excerpt|default(service.summary|striptags|truncate(150)) }}</p>
+                    <a href="{{ service.url }}" class="service-card__link">
+                        Научете повече
+                        <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Нуждаете се от правна консултация?</h2>
+            <p>Свържете се с нас за да обсъдим Вашия случай и да намерим най-доброто решение.</p>
+            <a href="tel:+359898625633" class="btn btn--primary">
+                <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                Обадете се: 0898 625 633
+            </a>
+        </div>
+    </section>
+{% endblock %}

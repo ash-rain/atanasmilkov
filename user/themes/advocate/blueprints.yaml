@@ -1,0 +1,30 @@
+name: Advocate
+slug: advocate
+type: theme
+version: 1.0.0
+description: "Modern advocate/lawyer website theme for Atanas Milkov"
+icon: balance-scale
+author:
+  name: Atanas Milkov
+  url: https://atanasmilkov.com
+homepage: https://atanasmilkov.com
+keywords: advocate, lawyer, legal, theme, bulgarian
+bugs: https://github.com/getgrav/grav/issues
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.7.0' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

@@ -1,0 +1,22 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    {% if page.header.show_page_header is not same as(false) %}
+    <section class="page-header">
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+            <div class="breadcrumbs">
+                <a href="{{ base_url_absolute }}">Начало</a>
+                <span class="sep">/</span>
+                <span>{{ page.title }}</span>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <section class="section">
+        <div class="container">
+            {{ page.content|raw }}
+        </div>
+    </section>
+{% endblock %}

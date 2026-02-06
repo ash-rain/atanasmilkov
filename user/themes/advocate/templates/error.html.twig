@@ -1,0 +1,20 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <section class="page-header">
+        <div class="container">
+            <h1>Страницата не е намерена</h1>
+        </div>
+    </section>
+
+    <section class="section text-center">
+        <div class="container">
+            <h2 style="font-size: 5rem; color: var(--color-accent); margin-bottom: 1rem;">404</h2>
+            <p style="font-size: 1.2rem; color: var(--color-text-light); margin-bottom: 2rem;">Страницата, която търсите, не съществува или е преместена.</p>
+            <a href="{{ base_url_absolute }}" class="btn btn--primary">
+                <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                Начална страница
+            </a>
+        </div>
+    </section>
+{% endblock %}

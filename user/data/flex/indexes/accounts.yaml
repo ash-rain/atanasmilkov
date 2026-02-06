@@ -1,0 +1,9 @@
+version: '1.2'
+timestamp: 1770372147
+count: 1
+index:
+  admin:
+    storage_key: admin
+    storage_timestamp: 1770372139
+    key: admin
+    email: info@atanasmilkov.com
