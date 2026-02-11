@@ -7,6 +7,6 @@ access:
     super: true
   site:
     login: true
-fullname: 'Атанас Милков'
+fullname: "Атанас Милков"
 title: Администратор
 hashed_password: $2y$10$qXlVuVqS0AQU0AHKvsuBz.GEXKfobDRBj4KTqaC/Jgj/bRqOoZkBS
