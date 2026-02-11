@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/boyan/Documents/_DEV/atanasmilkov/user/config/site.yaml',
-    'modified' => 1770835644,
+    'modified' => 1770835801,
     'size' => 688,
     'data' => [
         'title' => 'Адвокат Атанас Милков',

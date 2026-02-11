@@ -167,6 +167,73 @@ class __TwigTemplate_b719e172a7d989109abe9fbd588c57a54cf01718ef416a1d32079a67fac
         </div>
     </section>
 
+    <!-- LEGAL PROTECTION SHOWCASE -->
+    <section class=\"section section--showcase\">
+        <div class=\"container\">
+            <div class=\"section__header\">
+                <h2>Правна защита и съдействие</h2>
+                <p class=\"section__subtitle\">Защита по граждански и изпълнителни дела, образувани от търговски банки, кредитни институции, фирми за бързи кредити, колекторски фирми и фирми за събиране на задължения</p>
+            </div>
+
+            <div class=\"showcase-grid\">
+                <!-- Card 1: Процесуално представителство -->
+                <div class=\"showcase-card reveal\">
+                    <div class=\"showcase-card__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z\" fill=\"currentColor\"/></svg>
+                    </div>
+                    <h3 class=\"showcase-card__title\">Процесуално представителство</h3>
+                    <ul class=\"showcase-card__list\">
+                        <li>Представителство по дела в заповедното производство</li>
+                        <li>Изготвяне и депозиране на възражения срещу заповеди за изпълнение по чл. 410, 417 ГПК</li>
+                        <li>Представителство по дела за обезпечаване на бъдещ иск</li>
+                        <li>Представителство по установителни искове за недължимост на вземания</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Изпълнителни дела -->
+                <div class=\"showcase-card reveal\">
+                    <div class=\"showcase-card__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z\" fill=\"currentColor\"/></svg>
+                    </div>
+                    <h3 class=\"showcase-card__title\">Изпълнителни дела</h3>
+                    <ul class=\"showcase-card__list\">
+                        <li>Образуване на изпълнителни дела и процесуално представителство по образувани изпълнителни дела</li>
+                        <li>Образуване, водене, спиране и прекратяване на изпълнителни дела</li>
+                        <li>Процесуално представителство по трудовоправни спорове</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Медиация -->
+                <div class=\"showcase-card reveal\">
+                    <div class=\"showcase-card__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z\" fill=\"currentColor\"/></svg>
+                    </div>
+                    <h3 class=\"showcase-card__title\">Медиация</h3>
+                    <ul class=\"showcase-card__list\">
+                        <li>Правна помощ при събирането на вземания от граждани или фирми и посредничество при сключването на извънсъдебни споразумения</li>
+                        <li>Проучване и становище по наличната документация</li>
+                        <li>Проучване на състоянието на длъжника</li>
+                        <li>Преговори и изготвяне на споразумения за разсрочване на задълженията и предоставяне на гаранции</li>
+                        <li>Изготвяне на покани за доброволно изпълнение, предупредителни писма и нотариални покани</li>
+                    </ul>
+                </div>
+
+                <!-- Card 4: Семейно право и домашно насилие -->
+                <div class=\"showcase-card reveal\">
+                    <div class=\"showcase-card__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z\" fill=\"currentColor\"/></svg>
+                    </div>
+                    <h3 class=\"showcase-card__title\">Семейно право и домашно насилие</h3>
+                    <ul class=\"showcase-card__list\">
+                        <li>Правна защита и съдействие по дела за домашно насилие</li>
+                        <li>Образуване и водене на дела и осъществяване на процесуално представителство по бракоразводни дела</li>
+                        <li>Процесуално представителство по дела за делба</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ABOUT PREVIEW SECTION -->
     <section class=\"section\" id=\"about\">
         <div class=\"container\">
@@ -174,13 +241,13 @@ class __TwigTemplate_b719e172a7d989109abe9fbd588c57a54cf01718ef416a1d32079a67fac
                 <div class=\"about__image-wrapper reveal\">
                     <div class=\"about__image\">
                         <img src=\"";
-        // line 97
+        // line 164
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://images/atanas-milkov.jpg"), "html", null, true);
         echo "\" alt=\"Адвокат Атанас Милков\">
                         <div class=\"about__image-accent\"></div>
                     </div>
                     <div class=\"about__experience-badge\">
-                        <div class=\"number\">25+</div>
+                        <div class=\"number\">16+</div>
                         <div class=\"label\">години опит</div>
                     </div>
                 </div>
@@ -218,7 +285,7 @@ class __TwigTemplate_b719e172a7d989109abe9fbd588c57a54cf01718ef416a1d32079a67fac
                     </div>
 
                     <a href=\"";
-        // line 138
+        // line 205
         echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
         echo "/about\" class=\"btn btn--dark\" style=\"margin-top: 2rem;\">
                         Научете повече
@@ -278,49 +345,49 @@ class __TwigTemplate_b719e172a7d989109abe9fbd588c57a54cf01718ef416a1d32079a67fac
 
             <div class=\"blog-grid\">
                 ";
-        // line 195
+        // line 262
         $context["blog_posts"] = $this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", [0 => "/blog"], "method"), "children", []), "order", [0 => "date", 1 => "desc"], "method");
-        // line 196
+        // line 263
         echo "                ";
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(twig_slice($this->env, ($context["blog_posts"] ?? null), 0, 3));
         foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
-            // line 197
+            // line 264
             echo "                <div class=\"blog-card reveal\">
                     <div class=\"blog-card__image blog-card__image--placeholder\">
                         ";
-            // line 199
+            // line 266
             if ($this->getAttribute($this->getAttribute($context["post"], "header", []), "category", [])) {
-                // line 200
+                // line 267
                 echo "                        <span class=\"blog-card__category\">";
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], "header", []), "category", []), "html", null, true);
                 echo "</span>
                         ";
             }
-            // line 202
+            // line 269
             echo "                        <svg viewBox=\"0 0 24 24\"><path d=\"M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z\"/></svg>
                     </div>
                     <div class=\"blog-card__body\">
                         <div class=\"blog-card__meta\">
                             <span>";
-            // line 206
+            // line 273
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["post"], "date", []), "d.m.Y"), "html", null, true);
             echo "</span>
                         </div>
                         <h3 class=\"blog-card__title\">
                             <a href=\"";
-            // line 209
+            // line 276
             echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "url", []), "html", null, true);
             echo "\">";
             echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", []), "html", null, true);
             echo "</a>
                         </h3>
                         <p class=\"blog-card__excerpt\">";
-            // line 211
+            // line 278
             echo twig_escape_filter($this->env, Grav\Common\Utils::truncate(strip_tags($this->getAttribute($context["post"], "summary", [])), 120), "html", null, true);
             echo "</p>
                         <a href=\"";
-            // line 212
+            // line 279
             echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "url", []), "html", null, true);
             echo "\" class=\"blog-card__link\">
                             Прочетете повече
@@ -333,12 +400,12 @@ class __TwigTemplate_b719e172a7d989109abe9fbd588c57a54cf01718ef416a1d32079a67fac
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 219
+        // line 286
         echo "            </div>
 
             <div class=\"text-center\" style=\"margin-top: 2.5rem;\">
                 <a href=\"";
-        // line 222
+        // line 289
         echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
         echo "/blog\" class=\"btn btn--dark\">
                     Всички статии
@@ -374,7 +441,7 @@ class __TwigTemplate_b719e172a7d989109abe9fbd588c57a54cf01718ef416a1d32079a67fac
 
     public function getDebugInfo()
     {
-        return array (  342 => 222,  337 => 219,  324 => 212,  320 => 211,  313 => 209,  307 => 206,  301 => 202,  295 => 200,  293 => 199,  289 => 197,  284 => 196,  282 => 195,  222 => 138,  178 => 97,  166 => 87,  154 => 81,  150 => 80,  143 => 78,  139 => 76,  135 => 74,  129 => 72,  127 => 71,  123 => 69,  118 => 68,  116 => 67,  98 => 52,  67 => 24,  60 => 20,  42 => 4,  39 => 3,  29 => 1,);
+        return array (  409 => 289,  404 => 286,  391 => 279,  387 => 278,  380 => 276,  374 => 273,  368 => 269,  362 => 267,  360 => 266,  356 => 264,  351 => 263,  349 => 262,  289 => 205,  245 => 164,  166 => 87,  154 => 81,  150 => 80,  143 => 78,  139 => 76,  135 => 74,  129 => 72,  127 => 71,  123 => 69,  118 => 68,  116 => 67,  98 => 52,  67 => 24,  60 => 20,  42 => 4,  39 => 3,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -477,6 +544,73 @@ class __TwigTemplate_b719e172a7d989109abe9fbd588c57a54cf01718ef416a1d32079a67fac
         </div>
     </section>
 
+    <!-- LEGAL PROTECTION SHOWCASE -->
+    <section class=\"section section--showcase\">
+        <div class=\"container\">
+            <div class=\"section__header\">
+                <h2>Правна защита и съдействие</h2>
+                <p class=\"section__subtitle\">Защита по граждански и изпълнителни дела, образувани от търговски банки, кредитни институции, фирми за бързи кредити, колекторски фирми и фирми за събиране на задължения</p>
+            </div>
+
+            <div class=\"showcase-grid\">
+                <!-- Card 1: Процесуално представителство -->
+                <div class=\"showcase-card reveal\">
+                    <div class=\"showcase-card__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z\" fill=\"currentColor\"/></svg>
+                    </div>
+                    <h3 class=\"showcase-card__title\">Процесуално представителство</h3>
+                    <ul class=\"showcase-card__list\">
+                        <li>Представителство по дела в заповедното производство</li>
+                        <li>Изготвяне и депозиране на възражения срещу заповеди за изпълнение по чл. 410, 417 ГПК</li>
+                        <li>Представителство по дела за обезпечаване на бъдещ иск</li>
+                        <li>Представителство по установителни искове за недължимост на вземания</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Изпълнителни дела -->
+                <div class=\"showcase-card reveal\">
+                    <div class=\"showcase-card__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z\" fill=\"currentColor\"/></svg>
+                    </div>
+                    <h3 class=\"showcase-card__title\">Изпълнителни дела</h3>
+                    <ul class=\"showcase-card__list\">
+                        <li>Образуване на изпълнителни дела и процесуално представителство по образувани изпълнителни дела</li>
+                        <li>Образуване, водене, спиране и прекратяване на изпълнителни дела</li>
+                        <li>Процесуално представителство по трудовоправни спорове</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Медиация -->
+                <div class=\"showcase-card reveal\">
+                    <div class=\"showcase-card__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z\" fill=\"currentColor\"/></svg>
+                    </div>
+                    <h3 class=\"showcase-card__title\">Медиация</h3>
+                    <ul class=\"showcase-card__list\">
+                        <li>Правна помощ при събирането на вземания от граждани или фирми и посредничество при сключването на извънсъдебни споразумения</li>
+                        <li>Проучване и становище по наличната документация</li>
+                        <li>Проучване на състоянието на длъжника</li>
+                        <li>Преговори и изготвяне на споразумения за разсрочване на задълженията и предоставяне на гаранции</li>
+                        <li>Изготвяне на покани за доброволно изпълнение, предупредителни писма и нотариални покани</li>
+                    </ul>
+                </div>
+
+                <!-- Card 4: Семейно право и домашно насилие -->
+                <div class=\"showcase-card reveal\">
+                    <div class=\"showcase-card__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z\" fill=\"currentColor\"/></svg>
+                    </div>
+                    <h3 class=\"showcase-card__title\">Семейно право и домашно насилие</h3>
+                    <ul class=\"showcase-card__list\">
+                        <li>Правна защита и съдействие по дела за домашно насилие</li>
+                        <li>Образуване и водене на дела и осъществяване на процесуално представителство по бракоразводни дела</li>
+                        <li>Процесуално представителство по дела за делба</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ABOUT PREVIEW SECTION -->
     <section class=\"section\" id=\"about\">
         <div class=\"container\">
@@ -487,7 +621,7 @@ class __TwigTemplate_b719e172a7d989109abe9fbd588c57a54cf01718ef416a1d32079a67fac
                         <div class=\"about__image-accent\"></div>
                     </div>
                     <div class=\"about__experience-badge\">
-                        <div class=\"number\">25+</div>
+                        <div class=\"number\">16+</div>
                         <div class=\"label\">години опит</div>
                     </div>
                 </div>
