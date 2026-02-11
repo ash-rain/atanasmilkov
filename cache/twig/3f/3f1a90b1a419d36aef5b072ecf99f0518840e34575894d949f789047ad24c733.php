@@ -1,0 +1,259 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* partials/footer.html.twig */
+class __TwigTemplate_e5e303300def59e1da87e61ea427ebff40a230b03ff3be2b94279136deee7573 extends \Twig\Template
+{
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        // line 1
+        echo "<!-- Footer -->
+<footer class=\"site-footer\">
+    <div class=\"container\">
+        <div class=\"footer-grid\">
+            <!-- About Column -->
+            <div class=\"footer-col footer-about\">
+                <a href=\"";
+        // line 7
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "\" class=\"site-logo\">
+                    <div class=\"site-logo__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.18l7 3.12v5.7c0 4.83-3.23 9.36-7 10.57-3.77-1.21-7-5.74-7-10.57V6.3l7-3.12z\"/></svg>
+                    </div>
+                    <div class=\"site-logo__text\">
+                        <span class=\"site-logo__name\">Атанас Милков</span>
+                        <span class=\"site-logo__title\">Адвокат</span>
+                    </div>
+                </a>
+                <p>Предоставяме професионални правни услуги с индивидуален подход към всеки клиент. Повече от 16 години опит в защита на Вашите права и интереси.</p>
+                <div class=\"top-bar__social\" style=\"margin-top: 1rem;\">
+                    <a href=\"#\" aria-label=\"Facebook\">
+                        <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"currentColor\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"/></svg>
+                    </a>
+                    <a href=\"#\" aria-label=\"LinkedIn\">
+                        <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"currentColor\"><path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z\"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services Column -->
+            <div class=\"footer-col\">
+                <h4>Услуги</h4>
+                <ul>
+                    <li><a href=\"";
+        // line 31
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/services/administrativno-pravo\">Административно право</a></li>
+                    <li><a href=\"";
+        // line 32
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/services/veshtno-pravo\">Вещно право</a></li>
+                    <li><a href=\"";
+        // line 33
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/services/grazhdansko-pravo\">Гражданско право</a></li>
+                    <li><a href=\"";
+        // line 34
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/services/semeyno-i-nasledstveno-pravo\">Семейно право</a></li>
+                    <li><a href=\"";
+        // line 35
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/services/targovsko-pravo\">Търговско право</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class=\"footer-col\">
+                <h4>Бързи връзки</h4>
+                <ul>
+                    <li><a href=\"";
+        // line 43
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "\">Начало</a></li>
+                    <li><a href=\"";
+        // line 44
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/about\">За мен</a></li>
+                    <li><a href=\"";
+        // line 45
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/services\">Всички услуги</a></li>
+                    <li><a href=\"";
+        // line 46
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/blog\">Блог</a></li>
+                    <li><a href=\"";
+        // line 47
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/contact\">Контакти</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Column -->
+            <div class=\"footer-col\">
+                <h4>Контакти</h4>
+                <div class=\"footer-contact-item\">
+                    <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z\"/></svg>
+                    <span>гр. Стара Загора, ул. Цар Калоян 53А, ет.1, оф.2</span>
+                </div>
+                <div class=\"footer-contact-item\">
+                    <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z\"/></svg>
+                    <a href=\"tel:+359898625633\">0898 625 633</a>
+                </div>
+                <div class=\"footer-contact-item\">
+                    <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z\"/></svg>
+                    <a href=\"mailto:lawyer13milkov@gmail.com\">lawyer13milkov@gmail.com</a>
+                </div>
+                <div class=\"footer-contact-item\">
+                    <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z\"/></svg>
+                    <span>Пон - Пет: 09:00 - 18:00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class=\"footer-bottom\">
+            <span>&copy; ";
+        // line 74
+        echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
+        echo " Адвокат Атанас Милков. Всички права запазени.</span>
+            <span>
+                <a href=\"";
+        // line 76
+        echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+        echo "/privacy\">Поверителност</a>
+            </span>
+        </div>
+    </div>
+</footer>
+";
+    }
+
+    public function getTemplateName()
+    {
+        return "partials/footer.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  143 => 76,  138 => 74,  108 => 47,  104 => 46,  100 => 45,  96 => 44,  92 => 43,  81 => 35,  77 => 34,  73 => 33,  69 => 32,  65 => 31,  38 => 7,  30 => 1,);
+    }
+
+    /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
+    public function getSource()
+    {
+        @trigger_error('The '.__METHOD__.' method is deprecated since version 1.27 and will be removed in 2.0. Use getSourceContext() instead.', E_USER_DEPRECATED);
+
+        return $this->getSourceContext()->getCode();
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("<!-- Footer -->
+<footer class=\"site-footer\">
+    <div class=\"container\">
+        <div class=\"footer-grid\">
+            <!-- About Column -->
+            <div class=\"footer-col footer-about\">
+                <a href=\"{{ base_url_absolute }}\" class=\"site-logo\">
+                    <div class=\"site-logo__icon\">
+                        <svg viewBox=\"0 0 24 24\"><path d=\"M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.18l7 3.12v5.7c0 4.83-3.23 9.36-7 10.57-3.77-1.21-7-5.74-7-10.57V6.3l7-3.12z\"/></svg>
+                    </div>
+                    <div class=\"site-logo__text\">
+                        <span class=\"site-logo__name\">Атанас Милков</span>
+                        <span class=\"site-logo__title\">Адвокат</span>
+                    </div>
+                </a>
+                <p>Предоставяме професионални правни услуги с индивидуален подход към всеки клиент. Повече от 16 години опит в защита на Вашите права и интереси.</p>
+                <div class=\"top-bar__social\" style=\"margin-top: 1rem;\">
+                    <a href=\"#\" aria-label=\"Facebook\">
+                        <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"currentColor\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"/></svg>
+                    </a>
+                    <a href=\"#\" aria-label=\"LinkedIn\">
+                        <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"currentColor\"><path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z\"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services Column -->
+            <div class=\"footer-col\">
+                <h4>Услуги</h4>
+                <ul>
+                    <li><a href=\"{{ base_url_absolute }}/services/administrativno-pravo\">Административно право</a></li>
+                    <li><a href=\"{{ base_url_absolute }}/services/veshtno-pravo\">Вещно право</a></li>
+                    <li><a href=\"{{ base_url_absolute }}/services/grazhdansko-pravo\">Гражданско право</a></li>
+                    <li><a href=\"{{ base_url_absolute }}/services/semeyno-i-nasledstveno-pravo\">Семейно право</a></li>
+                    <li><a href=\"{{ base_url_absolute }}/services/targovsko-pravo\">Търговско право</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class=\"footer-col\">
+                <h4>Бързи връзки</h4>
+                <ul>
+                    <li><a href=\"{{ base_url_absolute }}\">Начало</a></li>
+                    <li><a href=\"{{ base_url_absolute }}/about\">За мен</a></li>
+                    <li><a href=\"{{ base_url_absolute }}/services\">Всички услуги</a></li>
+                    <li><a href=\"{{ base_url_absolute }}/blog\">Блог</a></li>
+                    <li><a href=\"{{ base_url_absolute }}/contact\">Контакти</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Column -->
+            <div class=\"footer-col\">
+                <h4>Контакти</h4>
+                <div class=\"footer-contact-item\">
+                    <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z\"/></svg>
+                    <span>гр. Стара Загора, ул. Цар Калоян 53А, ет.1, оф.2</span>
+                </div>
+                <div class=\"footer-contact-item\">
+                    <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z\"/></svg>
+                    <a href=\"tel:+359898625633\">0898 625 633</a>
+                </div>
+                <div class=\"footer-contact-item\">
+                    <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z\"/></svg>
+                    <a href=\"mailto:lawyer13milkov@gmail.com\">lawyer13milkov@gmail.com</a>
+                </div>
+                <div class=\"footer-contact-item\">
+                    <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z\"/></svg>
+                    <span>Пон - Пет: 09:00 - 18:00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class=\"footer-bottom\">
+            <span>&copy; {{ 'now'|date('Y') }} Адвокат Атанас Милков. Всички права запазени.</span>
+            <span>
+                <a href=\"{{ base_url_absolute }}/privacy\">Поверителност</a>
+            </span>
+        </div>
+    </div>
+</footer>
+", "partials/footer.html.twig", "/Users/boyan/Documents/_DEV/atanasmilkov/user/themes/advocate/templates/partials/footer.html.twig");
+    }
+}

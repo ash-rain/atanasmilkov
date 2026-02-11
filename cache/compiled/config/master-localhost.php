@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1770372142,
-    'checksum' => 'a257d1f68d8dc3323960121e6a7ca42b',
+    'timestamp' => 1770835712,
+    'checksum' => 'fd3ef07b17352cd870502a24379efb54',
     'files' => [
         'user/config' => [
             'security' => [
@@ -11,7 +11,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1770372069
+                'modified' => 1770835644
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -3891,14 +3891,14 @@ node_modules'
             'default_lang' => 'bg',
             'author' => [
                 'name' => 'Атанас Милков',
-                'email' => 'info@atanasmilkov.com'
+                'email' => 'lawyer13milkov@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Адвокат Атанас Милков - Професионални правни услуги в Стара Загора. Гражданско, наказателно, търговско, административно право и други.',
+                'description' => 'Адвокат Атанас Милков - Професионални правни услуги в Стара Загора. Гражданско, търговско, административно право и други.',
                 'keywords' => 'адвокат, Стара Загора, правни услуги, Атанас Милков, юрист, правна помощ',
                 'author' => 'Атанас Милков',
                 'robots' => 'index, follow',
